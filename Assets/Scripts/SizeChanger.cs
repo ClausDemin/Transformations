@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class ScaleModifier : MonoBehaviour
+public class SizeChanger : MonoBehaviour
 {
     [SerializeField] private float _scaleGrowthSpeed;
 
-    void Update()
+    private void Update()
     {
         IncreaseScale();
     }

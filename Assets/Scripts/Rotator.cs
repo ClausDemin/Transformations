@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Rotation : MonoBehaviour
+public class Rotator : MonoBehaviour
 {
     [SerializeField] private float _angularSpeed;
 
-    void Update()
+    private void Update()
     {
         Rotate();
     }
